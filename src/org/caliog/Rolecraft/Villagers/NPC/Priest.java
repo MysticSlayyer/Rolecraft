@@ -36,7 +36,7 @@ public class Priest extends Villager {
 			}
 		});
 		addCMessage(2, message);
-		addCMessage(3, new CMessage("Ok,bye!", MessageType.END));
+		addCMessage(3, new CMessage("Ok, I'm right here if you change your mind.", MessageType.END));
 	}
 
 	private String getClassType() {
